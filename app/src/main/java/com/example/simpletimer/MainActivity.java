@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button startB = (Button) this.findViewById(R.id.button);
+        startB = (Button) this.findViewById(R.id.button);
         startB.setOnClickListener(this);
         text = (TextView) this.findViewById(R.id.timer);
         timeElapsedView = (TextView) this.findViewById(R.id.timeElapsed);
