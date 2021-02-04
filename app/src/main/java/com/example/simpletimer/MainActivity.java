@@ -34,11 +34,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(!timerHasStarted) {
             countDownTimer.start();
             timerHasStarted = true;
-            startB.setText("Start");
+            //Removing hard coded string "start" check strings.xml
+            String startString = getString(R.string.startLabel);
+            startB.setText(startString);
         } else {
             countDownTimer.cancel();
             timerHasStarted = false;
-            startB.setText("Reset");
+            //Removing hard coded string "reset" check strings.xml
+            startB.setText(R.string.resetLabel);
         }
     }
 

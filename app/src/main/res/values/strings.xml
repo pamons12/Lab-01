@@ -3,4 +3,5 @@
     <string name="startLabel">Start</string>
     <string name="timeLabel">Time: </string>
     <string name="timeElapsedLabel">Time Elapsed: </string>
+    <string name="resetLabel">Reset</string>
 </resources>
